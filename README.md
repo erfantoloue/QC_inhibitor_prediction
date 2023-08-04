@@ -14,6 +14,9 @@ Requirements:
 - tensorflow
 
 ------
+## Cloning the environment
+Run <br>
+`git clone https://github.com/erfantoloue/QC_inhibitor_prediction.git`
 
 ## Training the model
 The trained model is saved as `model_final.h5` in the **Models** directory. However the training process can be repeated by running
@@ -24,3 +27,5 @@ The newly trained model will be saved as `new_model.h5` in the **Models** direct
 In order to use the model to predict the pIC50 for novel compounds, simply import SMILES of structures in the `compounds.csv` file. After that run
  <br> `python test.py` <br>
 The results will be saved in the `predictions.csv` file.
+## Predicted datasets
+The predicitons are available in the **Predictions** directory. These compounds are filtered by Lipinski's Rule of 5.
