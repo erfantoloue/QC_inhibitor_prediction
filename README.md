@@ -20,7 +20,7 @@ Run <br>
 
 ## Training the model
 The trained model is saved as `model_final.h5` in the **Models** directory. However the training process can be repeated by running
- <br>`python training.py` <br>
+ <br>`python training_model.py` <br>
 The newly trained model will be saved as `new_model.h5` in the **Models** directory and can be used for prediction.
 
 ## Using the model
